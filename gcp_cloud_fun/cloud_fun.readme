@@ -1,0 +1,12 @@
+Cloud functions deployment needs 2 mandatory files :
+  main.py
+  requirements.txt
+
+any additional dependency files :
+  utils.py
+
+By default cloud function when triggered gets the data in base24encode format.
+
+Use https://www.base64encode.org/ to encode the data.
+This can be accessed from within cloud function.
+
